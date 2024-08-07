@@ -1,0 +1,15 @@
+std_msgs/Header header
+
+uint8 status_velocity_near_standstill
+uint8 qualifier_velocity_vehicle
+uint8 velocity_vehicle_event_data_qualifier
+float32 velocity_vehicle
+uint8 velocity_vehicle_invalid_flag
+
+# std_msgs/Header header
+
+# uint8 StatusVelocityNearStandstill
+# uint8 QualifierVelocityVehicle
+# uint8 VelocityVehicleEventDataQualifier
+# float32 VelocityVehicle
+# uint8 VelocityVehicle_InvalidFlag

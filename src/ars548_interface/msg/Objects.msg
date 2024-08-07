@@ -1,0 +1,133 @@
+std_msgs/Header header
+    
+uint16 u_status_sensor
+uint32 u_id
+uint16 u_age
+uint8 u_status_measurement
+uint8 u_status_movement
+uint16 u_position_invalid_flags
+uint8 u_position_reference
+float32 u_position_x
+float32 u_position_x_std
+float32 u_position_y
+float32 u_position_y_std
+float32 u_position_z
+float32 u_position_z_std
+float32 u_position_covariance_xy
+float32 u_position_orientation
+float32 u_position_orientation_std
+uint8 u_existence_invalid_flags
+float32 u_existence_probability
+float32 u_existence_ppv
+uint8 u_classification_car
+uint8 u_classification_truck
+uint8 u_classification_motorcycle
+uint8 u_classification_bicycle
+uint8 u_classification_pedestrian
+uint8 u_classification_animal
+uint8 u_classification_hazard
+uint8 u_classification_unknown
+uint8 u_classification_overdrivable
+uint8 u_classification_underdrivable
+uint8 u_dynamics_absvel_invalid_flags
+float32 f_dynamics_absvel_x
+float32 f_dynamics_absvel_x_std
+float32 f_dynamics_absvel_y
+float32 f_dynamics_absvel_y_std
+float32 f_dynamics_absvel_covariance_xy
+uint8 u_dynamics_relvel_invalid_flags
+float32 f_dynamics_relvel_x
+float32 f_dynamics_relvel_x_std
+float32 f_dynamics_relvel_y
+float32 f_dynamics_relvel_y_std
+float32 f_dynamics_relvel_covariance_xy
+uint8 u_dynamics_absaccel_invalid_flags
+float32 f_dynamics_absaccel_x
+float32 f_dynamics_absaccel_x_std
+float32 f_dynamics_absaccel_y
+float32 f_dynamics_absaccel_y_std
+float32 f_dynamics_absaccel_covariance_xy
+uint8 u_dynamics_relaccel_invalid_flags
+float32 f_dynamics_relaccel_x
+float32 f_dynamics_relaccel_x_std
+float32 f_dynamics_relaccel_y
+float32 f_dynamics_relaccel_y_std
+float32 f_dynamics_relaccel_covariance_xy
+uint8 u_dynamics_orientation_invalid_flags
+float32 u_dynamics_orientation_rate_mean
+float32 u_dynamics_orientation_rate_std
+uint32 u_shape_length_status
+uint8 u_shape_length_edge_invalid_flags
+float32 u_shape_length_edge_mean
+float32 u_shape_length_edge_std
+uint32 u_shape_width_status
+uint8 u_shape_width_edge_invalid_flags
+float32 u_shape_width_edge_mean
+float32 u_shape_width_edge_std
+
+# std_msgs/Header header
+    
+# uint16 u_StatusSensor
+# uint32 u_ID
+# uint16 u_Age
+# uint8 u_StatusMeasurement
+# uint8 u_StatusMovement
+# uint16 u_Position_InvalidFlags
+# uint8 u_Position_Reference
+# float32 u_Position_X
+# float32 u_Position_X_STD
+# float32 u_Position_Y
+# float32 u_Position_Y_STD
+# float32 u_Position_Z
+# float32 u_Position_Z_STD
+# float32 u_Position_CovarianceXY
+# float32 u_Position_Orientation
+# float32 u_Position_Orientation_STD
+# uint8 u_Existence_InvalidFlags
+# float32 u_Existence_Probability
+# float32 u_Existence_PPV
+# uint8 u_Classification_Car
+# uint8 u_Classification_Truck
+# uint8 u_Classification_Motorcycle
+# uint8 u_Classification_Bicycle
+# uint8 u_Classification_Pedestrian
+# uint8 u_Classification_Animal
+# uint8 u_Classification_Hazard
+# uint8 u_Classification_Unknown
+# uint8 u_Classification_Overdrivable
+# uint8 u_Classification_Underdrivable
+# uint8 u_Dynamics_AbsVel_InvalidFlags
+# float32 f_Dynamics_AbsVel_X
+# float32 f_Dynamics_AbsVel_X_STD
+# float32 f_Dynamics_AbsVel_Y
+# float32 f_Dynamics_AbsVel_Y_STD
+# float32 f_Dynamics_AbsVel_CovarianceXY
+# uint8 u_Dynamics_RelVel_InvalidFlags
+# float32 f_Dynamics_RelVel_X
+# float32 f_Dynamics_RelVel_X_STD
+# float32 f_Dynamics_RelVel_Y
+# float32 f_Dynamics_RelVel_Y_STD
+# float32 f_Dynamics_RelVel_CovarianceXY
+# uint8 u_Dynamics_AbsAccel_InvalidFlags
+# float32 f_Dynamics_AbsAccel_X
+# float32 f_Dynamics_AbsAccel_X_STD
+# float32 f_Dynamics_AbsAccel_Y
+# float32 f_Dynamics_AbsAccel_Y_STD
+# float32 f_Dynamics_AbsAccel_CovarianceXY
+# uint8 u_Dynamics_RelAccel_InvalidFlags
+# float32 f_Dynamics_RelAccel_X
+# float32 f_Dynamics_RelAccel_X_STD
+# float32 f_Dynamics_RelAccel_Y
+# float32 f_Dynamics_RelAccel_Y_STD
+# float32 f_Dynamics_RelAccel_CovarianceXY
+# uint8 u_Dynamics_Orientation_InvalidFlags
+# float32 u_Dynamics_Orientation_Rate_Mean
+# float32 u_Dynamics_Orientation_Rate_STD
+# uint32 u_Shape_Length_Status
+# uint8 u_Shape_Length_Edge_InvalidFlags
+# float32 u_Shape_Length_Edge_Mean
+# float32 u_Shape_Length_Edge_STD
+# uint32 u_Shape_Width_Status
+# uint8 u_Shape_Width_Edge_InvalidFlags
+# float32 u_Shape_Width_Edge_Mean
+# float32 u_Shape_Width_Edge_STD

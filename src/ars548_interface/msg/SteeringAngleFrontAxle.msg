@@ -1,0 +1,18 @@
+std_msgs/Header header
+
+uint8 qualifier_steering_angle_front_axle
+float32 steering_angle_front_axle_err_amp
+uint8 steering_angle_front_axle_err_amp_invalid_flag
+float32 steering_angle_front_axle
+uint8 steering_angle_front_axle_invalid_flag
+uint8 steering_angle_front_axle_event_data_qualifier
+
+
+# std_msgs/Header header
+
+# uint8 QualifierSteeringAngleFrontAxle
+# float32 SteeringAngleFrontAxleErrAmp
+# uint8 SteeringAngleFrontAxleErrAmp_InvalidFlag
+# float32 SteeringAngleFrontAxle
+# uint8 SteeringAngleFrontAxle_InvalidFlag
+# uint8 SteeringAngleFrontAxleEventDataQualifier
